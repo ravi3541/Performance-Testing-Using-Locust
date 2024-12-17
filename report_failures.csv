@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences
+POST,/api/companies/create,HTTPError('400 Client Error: Bad Request for url: /api/companies/create'),1
+POST,/api/users/create,HTTPError('400 Client Error: Bad Request for url: /api/users/create'),70
+PATCH,/api/users/employees/sign-up,HTTPError('400 Client Error: Bad Request for url: /api/users/employees/sign-up'),3

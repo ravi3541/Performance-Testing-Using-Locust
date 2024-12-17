@@ -1,0 +1,20 @@
+Count,Message,Traceback,Nodes
+11,The run argument or self._run must be callable,"  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/user/task.py"", line 385, in execute_task
+    task(self)
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/locustPerformanceTesting/sequential_test_script.py"", line 317, in leftSwipeEmployee
+    self.user.environment.runner.quit()
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/runners.py"", line 403, in quit
+    self.stop()
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/runners.py"", line 551, in stop
+    super().stop()
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/runners.py"", line 390, in stop
+    self.stop_users(self.user_classes_count)
+  File ""/home/ravi.mourya@ad.mindbowser.com/Goal/Oct-Dec-2024/Locust/venv/lib/python3.10/site-packages/locust/runners.py"", line 267, in stop_users
+    async_calls_to_stop.add(gevent.spawn_later(0, user_to_stop.stop, force=True))
+  File ""src/gevent/greenlet.py"", line 703, in gevent._gevent_cgreenlet.Greenlet.spawn_later
+  File ""src/gevent/greenlet.py"", line 262, in gevent._gevent_cgreenlet.Greenlet.__init__
+",local

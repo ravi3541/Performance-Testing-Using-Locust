@@ -1,2 +1,4 @@
 locust~=2.32.3
 Faker~=33.0.0
+firebase-admin==6.6.0
+python-dotenv==1.0.1
